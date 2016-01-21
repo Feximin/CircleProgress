@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.feximin.neo.circleprogress.CircleProgress
+        android:id="@+id/pro0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img_download"
+        android:textColor="#FFF"
+        app:backdrop="#EEE"
+        app:mode="image"
+        app:outer_border_color="#0F0"
+        app:outer_border_width="2dp"
+        app:progress_color="#999"
+        app:progress_width="4dp" />
+
+    <com.feximin.neo.circleprogress.CircleProgress
+        android:id="@+id/pro1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textColor="#333"
+        app:backdrop="#EEE"
+        app:mode="text"
+        app:progress_color="#ff7b00"
+        app:progress_width="2dp" />
+    <com.feximin.neo.circleprogress.CircleProgress
+        android:id="@+id/pro2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#333"
+        app:start_angle="0"
+        app:clockwise="false"
+        app:backdrop="#EEE"
+        app:mode="none"
+        app:outer_border_width="2dp"
+        app:border_gap="5dp"
+        app:outer_border_color="#ff3734"
+        app:progress_color="#ff7b00"
+        app:progress_width="2dp" />
+
+</LinearLayout>

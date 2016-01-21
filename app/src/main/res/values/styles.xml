@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <declare-styleable name="CircleProgress">
+        <attr name="outer_border_color" format="color"/>
+        <attr name="outer_border_width" format="dimension"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_width" format="dimension"/>
+        <attr name="progress_backdrop" format="color"/>
+        <attr name="border_gap" format="dimension"/>
+        <attr name="backdrop" format="color"/>
+        <attr name="clockwise" format="boolean"/>
+        <attr name="start_angle" format="float"/>
+        <attr name="mode">
+            <enum name="none" value="0"/>
+            <enum name="text" value="1"/>
+            <enum name="image" value="2"/>
+        </attr>
+        <attr name="android:max"/>
+        <attr name="android:progress"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="android:src"/>
+    </declare-styleable>
+
+</resources>
